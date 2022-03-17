@@ -1,0 +1,3 @@
+D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T1_OlaMundo/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T1_OlaMundo/cmake-build-debug/CMakeFiles/T1_OlaMundo.dir
+D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T1_OlaMundo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
