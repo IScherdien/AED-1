@@ -40,8 +40,8 @@ int main(){
             case 4:
                 exit(0);
                 break;
-            }
         }
+    }
 }
 
 char *addnome(char *nome){
@@ -69,7 +69,7 @@ char *addnome(char *nome){
 }
 
 void rnome(){
-
+//não sei como fazer ela :(
 }
 
 void listarnome(char *nome){
