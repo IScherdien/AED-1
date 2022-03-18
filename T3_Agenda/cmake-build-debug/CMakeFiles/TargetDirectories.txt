@@ -1,0 +1,3 @@
+D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda/cmake-build-debug/CMakeFiles/T3_Agenda.dir
+D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda/cmake-build-debug/CMakeFiles/edit_cache.dir
