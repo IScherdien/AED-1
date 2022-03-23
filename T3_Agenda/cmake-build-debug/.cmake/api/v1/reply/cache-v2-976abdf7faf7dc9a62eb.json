@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda/cmake-build-debug"
+			"value" : "d:/Documentos SSD/Faculdade/Terceiro Semestre/AED/T3_Agenda/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda"
+			"value" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED/T3_Agenda"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda/cmake-build-debug"
+			"value" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED/T3_Agenda/cmake-build-debug"
 		},
 		{
 			"name" : "T3_Agenda_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda"
+			"value" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED/T3_Agenda"
 		}
 	],
 	"kind" : "cache",

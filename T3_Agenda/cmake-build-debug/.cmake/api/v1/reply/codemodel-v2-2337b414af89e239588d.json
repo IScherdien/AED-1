@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda/cmake-build-debug",
-		"source" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED-1/T3_Agenda"
+		"build" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED/T3_Agenda/cmake-build-debug",
+		"source" : "D:/Documentos SSD/Faculdade/Terceiro Semestre/AED/T3_Agenda"
 	},
 	"version" : 
 	{
