@@ -1,0 +1,202 @@
+Dr. Memory version 2.5.0 build 0 built on Oct 18 2021 03:01:22
+Windows version: WinVer=105;Rel=2009;Build=22000;Edition=CoreSingleLanguage
+Dr. Memory results for pid 5516: "T3_Agenda.exe"
+Application cmdline: "T3_Agenda.exe"
+Recorded 124 suppression(s) from default C:\Program Files (x86)\Dr. Memory\bin64\suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bff5e0-0x0000008e27bff5e8 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 _pei386_runtime_relocator
+# 2 __tmainCRTStartup
+# 3 .l_start     
+# 4 ntdll.dll!RtlUserThreadStart
+Note: @0:00:00.139 in thread 9440
+Note: 0x0000008e27bff5e0 refers to 696 byte(s) beyond the top of the stack 0x0000008e27bff898
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #2: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bfe850-0x0000008e27bfe858 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 main         
+Note: @0:00:00.355 in thread 9440
+Note: 0x0000008e27bfe850 refers to 4072 byte(s) beyond the top of the stack 0x0000008e27bff838
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #3: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bfe810-0x0000008e27bfe818 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 main         
+Note: @0:00:00.356 in thread 9440
+Note: 0x0000008e27bfe810 refers to 4136 byte(s) beyond the top of the stack 0x0000008e27bff838
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #4: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bfe810-0x0000008e27bfe818 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:28.034 in thread 9440
+Note: 0x0000008e27bfe810 refers to 4072 byte(s) beyond the top of the stack 0x0000008e27bff7f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #5: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bfe7d0-0x0000008e27bfe7d8 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:28.035 in thread 9440
+Note: 0x0000008e27bfe7d0 refers to 4136 byte(s) beyond the top of the stack 0x0000008e27bff7f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #6: UNADDRESSABLE ACCESS beyond heap bounds: writing 0x000001d9923b0460-0x000001d9923b0461 1 byte(s)
+# 0 __mingw_sformat
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:37.872 in thread 9440
+Note: prev lower malloc:  0x000001d9923b0410-0x000001d9923b0428
+Note: instruction: mov    %dl -> (%rax)
+
+Error #7: UNADDRESSABLE ACCESS beyond heap bounds: writing 0x000001d9923b0467-0x000001d9923b0468 1 byte(s)
+# 0 __mingw_sformat
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:37.873 in thread 9440
+Note: prev lower malloc:  0x000001d9923b0410-0x000001d9923b0428
+Note: instruction: mov    $0x00 -> (%rax)
+
+Error #8: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bfe810-0x0000008e27bfe818 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:37.889 in thread 9440
+Note: 0x0000008e27bfe810 refers to 4072 byte(s) beyond the top of the stack 0x0000008e27bff7f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #9: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bfe7d0-0x0000008e27bfe7d8 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:37.889 in thread 9440
+Note: 0x0000008e27bfe7d0 refers to 4136 byte(s) beyond the top of the stack 0x0000008e27bff7f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #10: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bfe810-0x0000008e27bfe818 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:45.747 in thread 9440
+Note: 0x0000008e27bfe810 refers to 4072 byte(s) beyond the top of the stack 0x0000008e27bff7f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #11: UNADDRESSABLE ACCESS beyond top of stack: reading 0x0000008e27bfe7d0-0x0000008e27bfe7d8 8 byte(s)
+# 0 ___chkstk_ms 
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:45.748 in thread 9440
+Note: 0x0000008e27bfe7d0 refers to 4136 byte(s) beyond the top of the stack 0x0000008e27bff7f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #12: UNADDRESSABLE ACCESS of freed memory: writing 0x000001d9923b0470-0x000001d9923b0474 4 byte(s)
+# 0 __mingw_sformat
+# 1 __mingw_vfscanf
+# 2 scanf        
+# 3 adicionar    
+# 4 main         
+Note: @0:00:57.325 in thread 9440
+Note: next higher malloc: 0x000001d9923b0570-0x000001d9923b0670
+Note: prev lower malloc:  0x000001d9923b0410-0x000001d9923b0428
+Note: 0x000001d9923b0470-0x000001d9923b0474 overlaps memory 0x000001d9923b0450-0x000001d9923b0550 that was freed here:
+Note: # 0 replace_free                  [d:\a\drmemory\drmemory\common\alloc_replace.c:2710]
+Note: # 1 cleanup_return
+Note: # 2 __mingw_sformat
+Note: # 3 __mingw_vfscanf
+Note: # 4 scanf        
+Note: # 5 adicionar    
+Note: instruction: mov    %edx -> (%rax)
+
+Error #13: UNADDRESSABLE ACCESS of freed memory: reading 0x000001d9923b02c0-0x000001d9923b02c4 4 byte(s)
+# 0 adicionar    
+# 1 main         
+Note: @0:01:06.245 in thread 9440
+Note: next higher malloc: 0x000001d9923b0410-0x000001d9923b0428
+Note: prev lower malloc:  0x000001d9923b0290-0x000001d9923b029e
+Note: 0x000001d9923b02c0-0x000001d9923b02c4 overlaps memory 0x000001d9923b02c0-0x000001d9923b02c4 that was freed here:
+Note: # 0 replace_realloc               [d:\a\drmemory\drmemory\common\alloc_replace.c:2672]
+Note: # 1 adicionar    
+Note: # 2 main         
+Note: instruction: mov    (%rax) -> %eax
+
+Error #14: INVALID HEAP ARGUMENT to realloc 0x000001d9923b02c0
+# 0 replace_realloc               [d:\a\drmemory\drmemory\common\alloc_replace.c:2672]
+# 1 adicionar    
+# 2 main         
+Note: @0:01:06.249 in thread 9440
+Note: next higher malloc: 0x000001d9923b0410-0x000001d9923b0428
+Note: prev lower malloc:  0x000001d9923b0290-0x000001d9923b029e
+Note: memory was previously freed here:
+Note: # 0 replace_realloc               [d:\a\drmemory\drmemory\common\alloc_replace.c:2672]
+Note: # 1 adicionar    
+Note: # 2 main         
+
+Error #15: POSSIBLE LEAK 31 direct bytes 0x000001d9923b01c0-0x000001d9923b01df + 0 indirect bytes
+# 0 replace_malloc                   [d:\a\drmemory\drmemory\common\alloc_replace.c:2580]
+# 1 msvcrt.dll!realloc              +0x17a    (0x00007ffb67a1c93b <msvcrt.dll+0x1c93b>)
+# 2 msvcrt.dll!unlock               +0x40c    (0x00007ffb67a3e6ed <msvcrt.dll+0x3e6ed>)
+# 3 msvcrt.dll!_getmainargs         +0x30     (0x00007ffb67a07ca1 <msvcrt.dll+0x7ca1>)
+# 4 pre_cpp_init 
+# 5 msvcrt.dll!initterm             +0x2c     (0x00007ffb67a3d54d <msvcrt.dll+0x3d54d>)
+# 6 __tmainCRTStartup
+# 7 .l_start     
+# 8 ntdll.dll!RtlUserThreadStart
+
+Error #16: LEAK 24 direct bytes 0x000001d9923b0410-0x000001d9923b0428 + 0 indirect bytes
+# 0 replace_realloc               [d:\a\drmemory\drmemory\common\alloc_replace.c:2672]
+# 1 adicionar    
+# 2 main         
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   1:      2
+	Error #   2:      4
+	Error #   3:      4
+	Error #   4:      2
+	Error #   5:      2
+	Error #   6:      7
+	Error #   8:      2
+	Error #   9:      2
+	Error #  10:      2
+	Error #  11:      2
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+     13 unique,    32 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      1 unique,     1 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      1 unique,     1 total,     24 byte(s) of leak(s)
+      1 unique,     1 total,     31 byte(s) of possible leak(s)
+ERRORS IGNORED:
+      3 unique,     3 total,     46 byte(s) of still-reachable allocation(s)
+         (re-run with "-show_reachable" for details)
+Details: C:\Users\isabe\AppData\Roaming\Dr. Memory\DrMemory-T3_Agenda.exe.5516.000\results.txt
