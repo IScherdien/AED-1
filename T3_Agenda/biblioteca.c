@@ -13,7 +13,7 @@ void *adicionar(char *pBuffer){
     Pessoas *ppessoa;
     pBuffer = (Pessoas *)realloc(pBuffer, (sizeof(Pessoas) * (npessoa + 1)));
     if (pBuffer == NULL){
-        printf("\n---Erro, falta de memoria---\n");
+        printf("\nErro, falta de memoria\n");
         exit(1);
     }
 
@@ -93,5 +93,5 @@ void buscar(char *pBuffer){
         }
         ppessoa++;
     }
-    printf("\n---Pessoa nao cadastrada---\n");
+    printf("\nPessoa nao cadastrada\n");
 }
