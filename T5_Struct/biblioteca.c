@@ -1,6 +1,6 @@
 #include "biblioteca.h"
 
-typedef struct Pessoa{
+typedef struct{
     char nome[10];
     int idade;
     float altura;
@@ -8,6 +8,7 @@ typedef struct Pessoa{
 
 void *adicionar(char *Buffer){
     int npessoa;
+    memcpy(&npessoa,Buffer, sizeof(int));
     Pessoas *ppessoa;
     Buffer = (Pessoas *)realloc(Buffer, (sizeof(Pessoas) * (npessoa + 1)));
     if (Buffer == NULL){
@@ -18,7 +19,7 @@ void *adicionar(char *Buffer){
     ppessoa = Buffer + (sizeof(Pessoas) * (npessoa))+sizeof(int);
 
     fflush(stdin);
-    printf("Informe o nome: ");
+    printf(" Informe o nome: ");
     scanf("%s", ppessoa->nome);
     fflush(stdin);
     printf("Informe a idade: ");

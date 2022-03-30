@@ -1,6 +1,7 @@
 #include "biblioteca.h"
 
 int main(){
+    setbuf(stdout, 0);
     int escolha;
     int npessoa = 0;
     void *Buffer = malloc(sizeof(int));
