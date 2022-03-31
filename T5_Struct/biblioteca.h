@@ -2,5 +2,5 @@
 #include <stdlib.h>
 #include <string.h>
 
-void *adicionar(char *Buffer);
-void listar(char *Buffer);
+void *adicionar(char *pBuffer);
+void listar(char *pBuffer);

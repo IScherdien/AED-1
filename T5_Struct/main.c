@@ -4,8 +4,8 @@ int main(){
     setbuf(stdout, 0);
     int escolha;
     int npessoa = 0;
-    void *Buffer = malloc(sizeof(int));
-    memcpy(Buffer, &npessoa,sizeof(int));
+    void *pBuffer = malloc(sizeof(int));
+    memcpy(pBuffer, &npessoa,sizeof(int));
 
     while (1){
         //Menu
@@ -19,11 +19,11 @@ int main(){
         //Menu
         switch (escolha){
             case 1:
-                Buffer=adicionar(Buffer);
+                pBuffer=adicionar(pBuffer);
                 break;
             case 2:
-                listar(Buffer);
-                free(Buffer);
+                listar(pBuffer);
+                free(pBuffer);
                 exit(0);
                 break;
             default:

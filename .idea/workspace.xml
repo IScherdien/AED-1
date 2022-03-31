@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="T5_Struct" targetName="T5_Struct" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,10 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae53d04a-1fde-42de-bb92-f47955c18cc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/T5_Struct/biblioteca.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T5_Struct/biblioteca.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T5_Struct/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/T3_Agenda/biblioteca.c" beforeDir="false" afterPath="$PROJECT_DIR$/T3_Agenda/biblioteca.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AED_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-989563e1a8b03112d135.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-24T21-21-14-0262.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/T5_Struct/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +55,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/T5_Struct/CMakeLists.txt" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.Unnamed">
+    <configuration name="T5_Struct" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="T5_Struct" TARGET_NAME="T5_Struct" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="T5_Struct" RUN_TARGET_NAME="T5_Struct">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -61,6 +73,15 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Unnamed" />
+      <item itemvalue="CMake Application.T5_Struct" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648150746780</updated>
       <workItem from="1648150751135" duration="2282000" />
+      <workItem from="1648685692388" duration="32000" />
     </task>
     <servers />
   </component>

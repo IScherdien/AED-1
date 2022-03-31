@@ -6,30 +6,30 @@ typedef struct{
     float altura;
 }Pessoas;
 
-void *adicionar(char *Buffer){
+void *adicionar(char *pBuffer){
     int npessoa;
-    memcpy(&npessoa,Buffer, sizeof(int));
+    memcpy(&npessoa,pBuffer, sizeof(int));
     Pessoas *ppessoa;
-    Buffer = (Pessoas *)realloc(Buffer, (sizeof(Pessoas) * (npessoa + 1)));
-    if (Buffer == NULL){
+    pBuffer = (Pessoas *)realloc(pBuffer, (sizeof(Pessoas) * (npessoa + 1)));
+    if (pBuffer == NULL){
         printf("\nErro, falta de memoria\n");
         exit(1);
     }
 
-    ppessoa = Buffer + (sizeof(Pessoas) * (npessoa))+sizeof(int);
+    ppessoa = pBuffer + (sizeof(Pessoas) * (npessoa))+sizeof(int);
 
     fflush(stdin);
-    printf(" Informe o nome: ");
+    printf(" Informe o nome:");
     scanf("%s", ppessoa->nome);
     fflush(stdin);
-    printf("Informe a idade: ");
+    printf("Informe a idade:");
     scanf("%d",&ppessoa->idade);
     fflush(stdin);
-    printf("Informe a altura: ");
+    printf("Informe a altura:");
     scanf("%f", &ppessoa->altura);
     npessoa++;
-    memcpy(Buffer,&npessoa, sizeof(int));
-    return Buffer;
+    memcpy(pBuffer,&npessoa, sizeof(int));
+    return pBuffer;
 }
 
 void listar(char *pBuffer){
