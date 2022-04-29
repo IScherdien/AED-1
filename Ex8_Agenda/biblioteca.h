@@ -3,7 +3,7 @@
 #include <string.h>
 
 int menu(void *pBuffer);
-void adicionar(void *head);
-void remover();
+void *adicionar(void *head);
+void remover(void *head);
 void listar(void *head);
-void buscar();
+void buscar(void* head);
