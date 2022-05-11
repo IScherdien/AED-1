@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Ex9_ArvoreAVL",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex9_ArvoreAVL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex9_ArvoreAVL-Debug-3e6cc7bcee785dfe35ef.json",
+					"name" : "Ex9_ArvoreAVL",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/isabe/OneDrive/Documentos/Faculdade/Terceiro Semestre/AED-1/Ex9_ArvoreAVL/cmake-build-debug",
+		"source" : "D:/isabe/OneDrive/Documentos/Faculdade/Terceiro Semestre/AED-1/Ex9_ArvoreAVL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

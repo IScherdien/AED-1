@@ -1,7 +1,4 @@
 # ninja log v5
-1	139	6697405840000000	CMakeFiles/T3_Agenda.dir/main.c.obj	7b3c139823da2740
-3	113	6697411120000000	CMakeFiles/T3_Agenda.dir/biblioteca.c.obj	c8ce2dd7ff2a57eb
-113	257	6697411120000000	T3_Agenda.exe	398d82fc14b85069
 2	199	6697828873330026	CMakeFiles/T3_Agenda.dir/main.c.obj	68b9e57735d6b6f6
 19	208	6697828873459662	CMakeFiles/T3_Agenda.dir/biblioteca.c.obj	1b67d25c456e7609
 209	476	6697828876122526	T3_Agenda.exe	3d34b53eb5363d4e

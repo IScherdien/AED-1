@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Documentos$ SSD/Faculdade/Terceiro$ Semestre/AED/T3_Agenda/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/isabe/OneDrive/Documentos/Faculdade/Terceiro$ Semestre/AED-1/T3_Agenda/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Documentos SSD\Faculdade\Terceiro Semestre\AED\T3_Agenda\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Documentos SSD\Faculdade\Terceiro Semestre\AED\T3_Agenda" -B"D:\Documentos SSD\Faculdade\Terceiro Semestre\AED\T3_Agenda\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\isabe\OneDrive\Documentos\Faculdade\Terceiro Semestre\AED-1\T3_Agenda\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\isabe\OneDrive\Documentos\Faculdade\Terceiro Semestre\AED-1\T3_Agenda" -B"C:\Users\isabe\OneDrive\Documentos\Faculdade\Terceiro Semestre\AED-1\T3_Agenda\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -61,7 +61,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_T3_Agenda: phony || CMakeFiles/T3_Agenda.dir
 
-build CMakeFiles/T3_Agenda.dir/main.c.obj: C_COMPILER__T3_Agenda_Debug D$:/Documentos$ SSD/Faculdade/Terceiro$ Semestre/AED/T3_Agenda/main.c || cmake_object_order_depends_target_T3_Agenda
+build CMakeFiles/T3_Agenda.dir/main.c.obj: C_COMPILER__T3_Agenda_Debug C$:/Users/isabe/OneDrive/Documentos/Faculdade/Terceiro$ Semestre/AED-1/T3_Agenda/main.c || cmake_object_order_depends_target_T3_Agenda
   DEP_FILE = CMakeFiles\T3_Agenda.dir\main.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\T3_Agenda.dir
@@ -69,7 +69,7 @@ build CMakeFiles/T3_Agenda.dir/main.c.obj: C_COMPILER__T3_Agenda_Debug D$:/Docum
   TARGET_COMPILE_PDB = CMakeFiles\T3_Agenda.dir\
   TARGET_PDB = T3_Agenda.pdb
 
-build CMakeFiles/T3_Agenda.dir/biblioteca.c.obj: C_COMPILER__T3_Agenda_Debug D$:/Documentos$ SSD/Faculdade/Terceiro$ Semestre/AED/T3_Agenda/biblioteca.c || cmake_object_order_depends_target_T3_Agenda
+build CMakeFiles/T3_Agenda.dir/biblioteca.c.obj: C_COMPILER__T3_Agenda_Debug C$:/Users/isabe/OneDrive/Documentos/Faculdade/Terceiro$ Semestre/AED-1/T3_Agenda/biblioteca.c || cmake_object_order_depends_target_T3_Agenda
   DEP_FILE = CMakeFiles\T3_Agenda.dir\biblioteca.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\T3_Agenda.dir
@@ -101,7 +101,7 @@ build T3_Agenda.exe: C_EXECUTABLE_LINKER__T3_Agenda_Debug CMakeFiles/T3_Agenda.d
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Documentos SSD\Faculdade\Terceiro Semestre\AED\T3_Agenda\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\isabe\OneDrive\Documentos\Faculdade\Terceiro Semestre\AED-1\T3_Agenda\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -118,7 +118,7 @@ build T3_Agenda: phony T3_Agenda.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Documentos SSD/Faculdade/Terceiro Semestre/AED/T3_Agenda/cmake-build-debug
+# Folder: C:/Users/isabe/OneDrive/Documentos/Faculdade/Terceiro Semestre/AED-1/T3_Agenda/cmake-build-debug
 
 build all: phony T3_Agenda.exe
 
