@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arthur/\u00c1rea de Trabalho/Ex9_ArvoreAVL/cmake-build-debug"
+			"value" : "/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL/cmake-build-debug-coverage"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arthur/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/cmake"
+			"value" : "/home/isabele/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arthur/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/cpack"
+			"value" : "/home/isabele/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +127,19 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arthur/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/ctest"
+			"value" : "/home/isabele/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/linux/bin/ctest"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "--coverage"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -191,7 +203,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "--coverage"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_DEBUG",
@@ -283,7 +295,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arthur/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/ccmake"
+			"value" : "/home/isabele/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/linux/bin/ccmake"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -463,7 +475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arthur/\u00c1rea de Trabalho/Ex9_ArvoreAVL"
+			"value" : "/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -515,7 +527,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/home/arthur/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/linux/ninja"
+			"value" : "/home/isabele/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/ninja/linux/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -747,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arthur/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22"
+			"value" : "/home/isabele/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/linux/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -995,7 +1007,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arthur/\u00c1rea de Trabalho/Ex9_ArvoreAVL/cmake-build-debug"
+			"value" : "/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL/cmake-build-debug-coverage"
 		},
 		{
 			"name" : "Ex9_ArvoreAVL_IS_TOP_LEVEL",
@@ -1019,7 +1031,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arthur/\u00c1rea de Trabalho/Ex9_ArvoreAVL"
+			"value" : "/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL"
 		}
 	],
 	"kind" : "cache",

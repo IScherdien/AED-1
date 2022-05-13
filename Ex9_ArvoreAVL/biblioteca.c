@@ -1,20 +1,20 @@
 #include "biblioteca.h"
 
-Nodo *Teste(Nodo *head, int *V, int nNodos) {
+Nodo *Teste(Nodo *head, int *V, int nNodos){
     for (int i = 0; i < nNodos; ++i) {
         head = inserir(V[i], head);
     }
     return head;
 }
 
-Nodo *gerar(int numero, Nodo *nod) {
+Nodo *gerar(int numero, Nodo *nod){
     for (int i = 0; i < numero; ++i) {
         nod = inserir(rand() % 100, nod);
     }
     return nod;
 }
 
-Nodo *criar(int valor) {
+Nodo *criar(int valor){
     Nodo *folha;
     folha = malloc(sizeof(Nodo));
     if (folha == NULL) {
@@ -28,9 +28,9 @@ Nodo *criar(int valor) {
     return folha;
 }
 
-int fb(Nodo *nodofb) {
+int fb(Nodo *nodofb){
     int dir = 0, esq = 0;
-    if (nodofb->esq != NULL) {
+    if (nodofb->esq != NULL){
         esq = nodofb->esq->altura;
     }
     if (nodofb->dir != NULL) {
@@ -39,7 +39,7 @@ int fb(Nodo *nodofb) {
     return esq - dir;
 }
 
-Nodo *rotdireita(Nodo *origem) {
+Nodo *rotdireita(Nodo *origem){
     if (origem == NULL) {
         return origem;
         exit(18);
@@ -55,7 +55,7 @@ Nodo *rotdireita(Nodo *origem) {
     return temp;
 }
 
-Nodo *rotesquerda(Nodo *origem) {
+Nodo *rotesquerda(Nodo *origem){
     if (origem == NULL) {
         return origem;
         exit(18);
@@ -72,50 +72,50 @@ Nodo *rotesquerda(Nodo *origem) {
     return temp;
 }
 
-Nodo *inserir(int valor, Nodo *nod) {
+Nodo *inserir(int valor, Nodo *nod){
 
-    if (nod == NULL) {
+    if (nod == NULL){
         return criar(valor);
     }
 
-    if (valor == nod->valor) {
+    if (valor == nod->valor){
         printf("Este numero já foi incluso");
         return nod;
     }
 
-    if (valor > nod->valor) {
+    if (valor > nod->valor){
         nod->dir = inserir(valor, nod->dir);
         nod->altura = nod->dir->altura + 1;
-    } else if (valor < nod->valor) {
+    } else if (valor < nod->valor){
         nod->esq = inserir(valor, nod->esq);
         nod->altura = nod->esq->altura + 1;
     }
 
     int fbi = fb(nod);
-    if (fbi > 1) {
+    if (fbi > 1){
         if (valorzero(nod) < valorzero(nod->dir)) { //Esquerda direita
             nod->esq = rotesquerda(nod->esq);
             return rotdireita(nod);
         } else {
             return rotdireita(nod); //Simples direita
         }
-    } else if (fbi < -1) {
+    } else if (fbi < -1){
         if (valorzero(nod) > valorzero(nod->esq)) { //Direita esquerda
             nod->dir = rotdireita(nod->dir);
             return rotesquerda(nod);
-        } else {
+        } else{
             return rotesquerda(nod); //Simples esquerda
         }
     }
     return nod;
 }
 
-int valorzero(Nodo *nod) {
+int valorzero(Nodo *nod){
     return (nod != NULL) ? nod->valor : 0;
 }
 
 /*Função do slide da aula 8*/
-int ArvoreArvl(Nodo *nod) {
+int ArvoreArvl(Nodo *nod){
     int fbi;
     if (nod == NULL)
         return 1;
@@ -132,7 +132,7 @@ int ArvoreArvl(Nodo *nod) {
 
 /* Utilizei a função "imprimir" deste site:
   https://www.geeksforgeeks.org/avl-tree-set-1-insertion/*/
-void printavl(Nodo *nod, int space) {
+void printavl(Nodo *nod, int space){
     // Base case
     if (nod == NULL)
         return;
@@ -150,22 +150,20 @@ void printavl(Nodo *nod, int space) {
     printavl(nod->esq, space);
 }
 
-void print(Nodo *nod) {
+void print(Nodo *nod){
     // Pass initial space count as 0
     printavl(nod, 0);
 }
 
 
-//Arthur
-int altura(Nodo *head) {
-
-    if (head == NULL) {
+/*Tive dificuldade com a altura das arvores,
+então usei a função que o Arthur fez*/
+int altura(Nodo *head){
+    if (head == NULL){
         return 0;
     }
-
     return 1 + maior(altura(head->esq), altura(head->dir));
 }
-
 int maior(int a, int b) {
     return (a > b) ? a : b;
 }

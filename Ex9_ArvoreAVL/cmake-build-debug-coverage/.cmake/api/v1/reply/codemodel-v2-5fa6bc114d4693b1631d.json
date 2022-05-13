@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Ex9_ArvoreAVL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ex9_ArvoreAVL-Debug-5d0de5729aaae92f4c4c.json",
+					"jsonFile" : "target-Ex9_ArvoreAVL-Debug-b34c03721139046da7cb.json",
 					"name" : "Ex9_ArvoreAVL",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/arthur/\u00c1rea de Trabalho/Ex9_ArvoreAVL/cmake-build-debug",
-		"source" : "/home/arthur/\u00c1rea de Trabalho/Ex9_ArvoreAVL"
+		"build" : "/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL/cmake-build-debug-coverage",
+		"source" : "/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL"
 	},
 	"version" : 
 	{

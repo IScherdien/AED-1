@@ -15,7 +15,7 @@ int main(){
 
     printf("Visualização da Arvore\nEla ocorre da esquerda para a direita");
     print(nod);
-    printf("\nEh avl? %s", (ArvoreArvl(nod)) ? "Sim" : "Não");
+    printf("\nE avl? %s", (ArvoreArvl(nod)) ? "Sim" : "Não");
 }
 
 
