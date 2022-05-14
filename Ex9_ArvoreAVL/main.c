@@ -1,7 +1,7 @@
 #include "biblioteca.h"
 
 int main(){
-    int teste[] = {20, 4, 3, 9, 26, 15};
+    //int teste[] = {20, 4, 3, 9, 26, 15};
 
     int numero=6;
     srand(time(NULL));
