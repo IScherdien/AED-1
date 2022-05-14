@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__T3_Agenda_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\isabe\OneDrive\Documentos\Faculdade\Terceiro Semestre\AED-1\T3_Agenda" -B"C:\Users\isabe\OneDrive\Documentos\Faculdade\Terceiro Semestre\AED-1\T3_Agenda\cmake-build-debug"
+  command = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Documentos SSD\Faculdade\Terceiro Semestre\AED\T3_Agenda" -B"D:\Documentos SSD\Faculdade\Terceiro Semestre\AED\T3_Agenda\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

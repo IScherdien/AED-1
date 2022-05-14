@@ -68,8 +68,10 @@ void remover(void *head){
         exit(1);
     }
 
-    printf("Insira o nome da pessoa que voce quer remover.\n");
+    printf("Insira o nome da pessoa que voce quer remover.");
     scanf("%s",encontrar);
+
+
 
     void **proximo=head;
     void *temp;

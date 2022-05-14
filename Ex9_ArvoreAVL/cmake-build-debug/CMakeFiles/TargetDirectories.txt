@@ -1,3 +1,3 @@
-D:/isabe/OneDrive/Documentos/Faculdade/Terceiro Semestre/AED-1/Ex9_ArvoreAVL/cmake-build-debug/CMakeFiles/Ex9_ArvoreAVL.dir
-D:/isabe/OneDrive/Documentos/Faculdade/Terceiro Semestre/AED-1/Ex9_ArvoreAVL/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/isabe/OneDrive/Documentos/Faculdade/Terceiro Semestre/AED-1/Ex9_ArvoreAVL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL/cmake-build-debug/CMakeFiles/Ex9_ArvoreAVL.dir
+/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/isabele/Documentos/Faculdade/AED-1/Ex9_ArvoreAVL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

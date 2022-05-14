@@ -16,6 +16,12 @@ Nodo *rotesquerda(Nodo *origem);
 int fb(Nodo *nodofb);
 Nodo *inserir(int valor, Nodo *nod);
 int valorzero(Nodo *nod);
-
 void printavl(Nodo *nod, int space);
 void print(Nodo *nod);
+int ArvoreArvl(Nodo *nod);
+
+//Arthur
+int altura(Nodo *head);
+int maior(int a, int b);
+
+Nodo *Teste(Nodo *head, int *V, int nNodos);
