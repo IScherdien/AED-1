@@ -1,0 +1,3 @@
+/home/isabele/Documentos/Faculdade/AED-1/T2_ListaNome/cmake-build-debug/CMakeFiles/T2_ListaNome.dir
+/home/isabele/Documentos/Faculdade/AED-1/T2_ListaNome/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/isabele/Documentos/Faculdade/AED-1/T2_ListaNome/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/T5_Struct.dir/biblioteca.c.o CMakeFiles/T5_Struct.dir/main.c.o -o T5_Struct 

@@ -1,0 +1,1 @@
+/usr/bin/cc -m64 -static-libgcc -ggdb -g -g CMakeFiles/Ex8_Agenda.dir/main.c.o CMakeFiles/Ex8_Agenda.dir/biblioteca.c.o -o Ex8_Agenda 

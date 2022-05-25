@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Ex1_OlaMundo.dir/Ola_mundo.c.o -o Ex1_OlaMundo 
