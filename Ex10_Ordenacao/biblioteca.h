@@ -9,6 +9,8 @@ int *gerar(int tamanho);
 int *insertion(int vetor[], int tamanho);
 int *selection(int vetor[], int tamanho);
 int *quick(int vetor[],int esq, int dir);
+//int *quick(int vetor[],int inicio, int fim);
+//int separa(int vetor[],int inicio, int fim);
 
 int *embaralhar(int *vetor, int tamanho);
 int *PopularSqc(int *vetor, int tamanho);

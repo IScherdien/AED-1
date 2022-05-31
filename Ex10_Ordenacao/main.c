@@ -17,8 +17,9 @@ int main(){
     vetor=embaralhar(PopularSqc(vetor, tamanho), tamanho);
     imprimir(vetor,tamanho);
 
-    vetor=insertion(vetor,tamanho);
-    vetor=selection(vetor,tamanho);
+    //vetor=insertion(vetor,tamanho);
+    //vetor=selection(vetor,tamanho);
+    vetor=quick(vetor, 0, tamanho-1);
     imprimir(vetor,tamanho);
 
     /*while(1){

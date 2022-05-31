@@ -7,7 +7,6 @@ int menu(){
     printf("Ele vai organizar melhor do que uma mãe organizaria o seu roupeiro\n");
     printf("Informe tamanho do vetor: ");
     //scanf("%d", &tamanho);
-
 }
 
 void imprimir(int *vetor, int tamanho){
@@ -46,7 +45,7 @@ int *insertion(int vetor[], int tamanho){
 }
 
 int *selection(int vetor[], int tamanho){
-    int troca, temp, menor, i;
+    int temp, menor, i;
     for (i = 0; i < tamanho; i++){
         menor=i;
         for (temp=i; temp<tamanho; temp++){
@@ -55,50 +54,59 @@ int *selection(int vetor[], int tamanho){
             }
         }
         if(menor!=i){
-            troca=vetor[i];
-            vetor[i]=vetor[menor];
-            vetor[menor]=troca;
+            troca(&vetor[i], &vetor[menor]);
         }
     }
     return vetor;
 }
 
-int *quick(int vetor[],int esq, int dir){
-    int pivo, temp;
-    pivo=vetor[(dir+esq)/2];
-    while (esq<dir){
-        while(vetor[esq]<=pivo)
-            esq++;
-        while(vetor[dir>pivo])
-            dir--;
-        if(esq<dir){
-            temp=vetor[esq];
-            vetor[esq]=vetor[dir];
-            vetor[dir]=temp;
+int *quick(int vetor[],int esq, int dir) {
+    int inicio, fim, pivo, temp;
+    inicio = esq;
+    fim = dir;
+    pivo = vetor[(esq + dir) / 2];
+    while(inicio <= fim) {
+        while(vetor[inicio] < pivo && inicio < dir) {
+            inicio++;
+        }
+        while(vetor[fim] > pivo && fim > esq){
+            fim--;
+        }
+        if(inicio <= fim){
+            troca(&vetor[inicio], &vetor[fim]);
+            inicio++;
+            fim--;
         }
     }
-    
+    if(fim > esq){
+        quick(vetor, esq, fim);
+    }
+    if(inicio < dir){
+        quick(vetor, inicio, dir);
+    }
+    return vetor;
 }
 
-//TEMPORARIO (Peguei emprestado para ver como os algoritimos se comportam com um vetor "controlado"
-int *embaralhar(int *vetor, int tamanho) {
-    //embaralha o vetor;
-    for (int i = 0; i < tamanho; ++i) {
-        troca(&vetor[i], &vetor[rand() % tamanho]);
-    }
-    return vetor;
-}
-int *PopularSqc(int *vetor, int tamanho) {
-    //Popula o vetor com valores crescentes
-    for (int i = 0; i < tamanho; ++i) {
-        vetor[i] = i + 1;
-    }
-    return vetor;
-}
 void troca(int *a, int *b) {
     int temp;
     temp = *a;
     *a = *b;
     *b = temp;
 }
+
+//TEMPORARIO (Peguei emprestado para ver como os algoritimos se comportam com um vetor "controlado"
+    int *embaralhar(int *vetor, int tamanho) {
+        //embaralha o vetor;
+        for (int i = 0; i < tamanho; ++i) {
+            troca(&vetor[i], &vetor[rand() % tamanho]);
+        }
+        return vetor;
+    }
+    int *PopularSqc(int *vetor, int tamanho) {
+        //Popula o vetor com valores crescentes
+        for (int i = 0; i < tamanho; ++i) {
+            vetor[i] = i + 1;
+        }
+        return vetor;
+    }
 //FIM TEMPORARIO
