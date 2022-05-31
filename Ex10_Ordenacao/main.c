@@ -6,7 +6,22 @@
 
 
 int main(){
-    while(1){
+    srand(time(NULL));
+    int tamanho=14;
+    int *vetor = (int *) malloc(tamanho * sizeof(int));
+    if (vetor == NULL) {
+        exit(0);
+    }
+
+    //vetor=embaralhar(gerar(tamanho), tamanho);
+    vetor=embaralhar(PopularSqc(vetor, tamanho), tamanho);
+    imprimir(vetor,tamanho);
+
+    vetor=insertion(vetor,tamanho);
+    vetor=selection(vetor,tamanho);
+    imprimir(vetor,tamanho);
+
+    /*while(1){
         switch(menu()){
             case 1:
                 insertion(vetor, tamanho);
@@ -27,5 +42,5 @@ int main(){
                 printf("Escolha invalida\n");
                 break;
         }
-    }
+    }*/
 }
