@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #define TAM 1000
-#define NELEMENTOS 1000
+#define NELEMENTOS 500
 
 int menu();
 void imprimir(int *vetor, int tamanho);

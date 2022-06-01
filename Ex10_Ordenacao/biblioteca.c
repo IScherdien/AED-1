@@ -145,10 +145,10 @@ void tempo(){
     for (int i = 0; i < NELEMENTOS; ++i) {
         vetor=gerar(NELEMENTOS);
         clock_gettime(CLOCK_PROCESS_CPUTIME_ID,&inicio[i]);
-        insertion(vetor,NELEMENTOS);
+        //insertion(vetor,NELEMENTOS);
         //selection(vetor,NELEMENTOS);
         //quick(vetor, 0, NELEMENTOS);
-        //merge(vetor, 0, NELEMENTOS);
+        merge(vetor, 0, NELEMENTOS);
         clock_gettime(CLOCK_PROCESS_CPUTIME_ID,&fim[i]);
     }
     for (int i = 0; i < NELEMENTOS; ++i) {
