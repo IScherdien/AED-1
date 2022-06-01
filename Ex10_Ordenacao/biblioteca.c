@@ -2,11 +2,10 @@
 
 int menu(){
     int tamanho;
-
     printf("Programa master de ''organizar'' vetores \n");
     printf("Ele vai organizar melhor do que uma mãe organizaria o seu roupeiro\n");
     printf("Informe tamanho do vetor: ");
-    //scanf("%d", &tamanho);
+    scanf("%d", &tamanho);
 }
 
 void imprimir(int *vetor, int tamanho){
@@ -87,11 +86,76 @@ int *quick(int vetor[],int esq, int dir) {
     return vetor;
 }
 
+int *merge(int vetor[], int inicio, int fim){
+    int pivo;
+    if (inicio < fim) {
+        pivo = (inicio + fim) / 2;
+        merge(vetor, inicio, pivo);
+        merge(vetor, pivo + 1, fim);
+        separar(vetor, inicio, pivo, fim);
+    }
+}
+
+int separar(int vetor[], int inicio, int pivo, int fim){
+    int i, j, k;
+    int piesq, pidir;
+    piesq = pivo - inicio + 1;
+    pidir = fim - pivo;
+    int esq[piesq], dir[pidir];
+
+    for (i = 0; i < piesq; i++)
+        esq[i] = vetor[inicio + i];
+    for (j = 0; j < pidir; j++)
+        dir[j] = vetor[pivo + 1 + j];
+
+    i = 0;
+    j = 0;
+    k = inicio;
+
+    while (i < piesq && j < pidir) {
+        if (esq[i] <= dir[j]) {
+            vetor[k] = esq[i++];
+        }
+        else {
+            vetor[k] = dir[j++];
+        }
+        k++;
+    }
+    while (i < piesq) {
+        vetor[k++] = esq[i++];
+    }
+    while (j < pidir) {
+        vetor[k++] = dir[j++];
+    }
+    return vetor;
+}
+
 void troca(int *a, int *b) {
     int temp;
     temp = *a;
     *a = *b;
     *b = temp;
+}
+
+void tempo(){
+    int *vetor;
+    long long tempo=0;
+    double media;
+    struct timespec inicio[NELEMENTOS],fim[NELEMENTOS];
+    for (int i = 0; i < NELEMENTOS; ++i) {
+        vetor=gerar(NELEMENTOS);
+        clock_gettime(CLOCK_PROCESS_CPUTIME_ID,&inicio[i]);
+        insertion(vetor,NELEMENTOS);
+        //selection(vetor,NELEMENTOS);
+        //quick(vetor, 0, NELEMENTOS);
+        //merge(vetor, 0, NELEMENTOS);
+        clock_gettime(CLOCK_PROCESS_CPUTIME_ID,&fim[i]);
+    }
+    for (int i = 0; i < NELEMENTOS; ++i) {
+        tempo=(fim[i].tv_sec - inicio[i].tv_sec)+(fim[i].tv_nsec - inicio[i].tv_nsec)+tempo;
+    }
+    media=tempo/NELEMENTOS;
+    printf("%.10lf \n",media*1e-9);
 }
 
 //TEMPORARIO (Peguei emprestado para ver como os algoritimos se comportam com um vetor "controlado"
